@@ -1,0 +1,93 @@
+[
+    {
+        "BookId": 17,
+        "Name": "Harry Potter",
+        "Pages": 267,
+        "Price": 0,
+        "PublishDate": "2022-05-15T10:30:00",
+        "Genre": 2,
+        "Author": {
+            "AuthorId": 109,
+            "Name": "J.K. Rowling"
+        },
+        "Reviews": null
+    },
+    {
+        "BookId": 54,
+        "Name": "Memory Man",
+        "Pages": 560,
+        "Price": 0,
+        "PublishDate": "2021-08-20T15:45:00",
+        "Genre": 0,
+        "Author": null,
+        "Reviews": [
+            {
+                "ReviewId": 67,
+                "Rating": 5,
+                "Description": "A real page turner",
+                "ReviewDate": "2021-08-21T08:00:00",
+                "User": "Tomer"
+            }
+        ]
+    },
+    {
+        "BookId": 66,
+        "Name": "Exhalation",
+        "Pages": 368,
+        "Price": 0,
+        "PublishDate": "2023-01-10T20:15:00",
+        "Genre": 0,
+        "Author": null,
+        "Reviews": null
+    },
+    {
+        "BookId": 91,
+        "Name": "It ends with us",
+        "Pages": 384,
+        "Price": 0,
+        "PublishDate": "2022-11-05T12:00:00",
+        "Genre": 0,
+        "Author": null,
+        "Reviews": null
+    },
+    {
+        "BookId": 9412,
+        "Name": "Rich Dad Poor Dad",
+        "Pages": 274,
+        "Price": 14.99,
+        "PublishDate": "2020-04-02T18:30:00",
+        "Genre": 4,
+        "Author": null,
+        "Reviews": null
+    },
+    {
+        "BookId": 3889,
+        "Name": "Rich Dad Poor Dad",
+        "Pages": 274,
+        "Price": 14.99,
+        "PublishDate": "2019-10-15T09:45:00",
+        "Genre": 4,
+        "Author": null,
+        "Reviews": null
+    },
+    {
+        "BookId": 8680,
+        "Name": "Rich Dad Poor Dad",
+        "Pages": 274,
+        "Price": 14.99,
+        "PublishDate": "2020-12-08T14:20:00",
+        "Genre": 4,
+        "Author": null,
+        "Reviews": null
+    },
+    {
+        "BookId": 1260,
+        "Name": "Rich Dad Poor Dad",
+        "Pages": 274,
+        "Price": 14.99,
+        "PublishDate": "2021-06-25T11:10:00",
+        "Genre": 4,
+        "Author": null,
+        "Reviews": null
+    }
+]
