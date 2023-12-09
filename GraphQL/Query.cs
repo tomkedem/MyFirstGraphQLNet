@@ -1,13 +1,14 @@
+using System.Security.Claims;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
 public class Query {
-    public List<Book> Books(string nameContains = "")
+    public List<Book> Books(ClaimsPrincipal claims, string nameContains = "")
     {
         string fileName = "Database/books.json";
         string jsonString = File.ReadAllText(fileName);
         var books =  JsonSerializer.Deserialize<List<Book>>(jsonString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true, Converters = { new JsonStringEnumConverter() } })!;
-        throw new Exception("Error retrieving data");
+        //throw new Exception("Error retrieving data");
         return books.Where(b => b.Name.IndexOf(nameContains) >=0).ToList();
     }
 }

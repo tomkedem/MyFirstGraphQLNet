@@ -6,8 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="HotChocolate.AspNetCore" Version="12.15.2" />
+  <ItemGroup>   
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.7.0" />   
+    <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="13.7.0" />
   </ItemGroup>
 
 </Project>
