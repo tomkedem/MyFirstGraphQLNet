@@ -17,9 +17,9 @@
       var name = document.getElementById("filter").value;
 
       var query = `query GetBooks($name: String)  {
-		  books (nameContains: $name)  {
-			name
-			pages
+        books (nameContains: $name)  {
+        name
+        pages
 		  }
 		}`;
 
